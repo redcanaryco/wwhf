@@ -1,3 +1,3 @@
 # Wild West Hackin' Fest C# Workshop Samples
-    Zac Brown & Casey Smith
+    Zac Brown & ~~Casey Smith~~ Joe Moles
     
