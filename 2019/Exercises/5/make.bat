@@ -1,0 +1,1 @@
+csc.exe /platform:x86 /target:exe /r:"SharpSploit.dll" SharpSploitMain.cs

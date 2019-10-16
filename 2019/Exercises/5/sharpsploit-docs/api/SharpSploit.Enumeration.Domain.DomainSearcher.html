@@ -1,0 +1,1139 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Domain.DomainSearcher
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Domain.DomainSearcher
+   ">
+    <meta name="generator" content="docfx 2.46.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher">
+  
+  
+  <h1 id="SharpSploit_Enumeration_Domain_DomainSearcher" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher" class="text-break">Class Domain.DomainSearcher
+  </h1>
+  <div class="markdown level0 summary"><p>DomainSearcher is a LDAP searcher class for domain enumeration.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Domain.DomainSearcher</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SharpSploit.Enumeration.html">SharpSploit.Enumeration</a></h6>
+  <h6><strong>Assembly</strong>: SharpSploit.dll</h6>
+  <h5 id="SharpSploit_Enumeration_Domain_DomainSearcher_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DomainSearcher</code></pre>
+  </div>
+  <h5 id="SharpSploit_Enumeration_Domain_DomainSearcher_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>DomainSearcher is adapted from Will Schroeder's (@harmj0y) PowerView. (Found
+at <a href="https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1">https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1</a>)</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher__ctor_SharpSploit_Enumeration_Domain_Credential_System_String_System_String_System_String_System_String_System_DirectoryServices_SearchScope_System_Int32_System_TimeSpan_System_Boolean_System_DirectoryServices_SecurityMasks_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.%23ctor(SharpSploit.Enumeration.Domain.Credential%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.DirectoryServices.SearchScope%2CSystem.Int32%2CSystem.TimeSpan%2CSystem.Boolean%2CSystem.DirectoryServices.SecurityMasks)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L57">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher__ctor_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.#ctor*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher__ctor_SharpSploit_Enumeration_Domain_Credential_System_String_System_String_System_String_System_String_System_DirectoryServices_SearchScope_System_Int32_System_TimeSpan_System_Boolean_System_DirectoryServices_SecurityMasks_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.#ctor(SharpSploit.Enumeration.Domain.Credential,System.String,System.String,System.String,System.String,System.DirectoryServices.SearchScope,System.Int32,System.TimeSpan,System.Boolean,System.DirectoryServices.SecurityMasks)">DomainSearcher(Domain.Credential, String, String, String, String, SearchScope, Int32, TimeSpan, Boolean, SecurityMasks)</h4>
+  <div class="markdown level1 summary"><p>Constructor for the DomainSearcher class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DomainSearcher(Domain.Credential Credentials = null, string Domain = &quot;&quot;, string Server = &quot;&quot;, string SearchBase = &quot;&quot;, string SearchString = &quot;&quot;, SearchScope SearchScope = SearchScope.Subtree, int ResultPageSize = 200, TimeSpan ServerTimeLimit = default(TimeSpan), bool TombStone = false, SecurityMasks SecurityMasks = SecurityMasks.None)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpSploit.Enumeration.Domain.Credential.html">Domain.Credential</a></td>
+        <td><span class="parametername">Credentials</span></td>
+        <td><p>Optional alternative Credentials to authenticate to the Domain.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Domain</span></td>
+        <td><p>Optional alternative Domain to authenticate to and search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Server</span></td>
+        <td><p>Optional alternative Server within the Domain to authenticate to and search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">SearchBase</span></td>
+        <td><p>Optional SearchBase to prepend to all LDAP searches.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">SearchString</span></td>
+        <td><p>Optional SearchString to append to SearchBase for all LDAP searches.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DirectoryServices.SearchScope</span></td>
+        <td><span class="parametername">SearchScope</span></td>
+        <td><p>Optional SearchScope for the underlying DirectorySearcher object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">ResultPageSize</span></td>
+        <td><p>Optional ResultPageSize for the underlying DirectorySearcher object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="parametername">ServerTimeLimit</span></td>
+        <td><p>Optional max time limit for the server per search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">TombStone</span></td>
+        <td><p>Optionally retrieve deleted/tombstoned DomainObjects</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DirectoryServices.SecurityMasks</span></td>
+        <td><span class="parametername">SecurityMasks</span></td>
+        <td><p>Optional SecurityMasks for the underlying DirectorySearcher object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_Credentials.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.Credentials%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L39">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_Credentials_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.Credentials*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_Credentials" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.Credentials">Credentials</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Domain.Credential Credentials { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpSploit.Enumeration.Domain.Credential.html">Domain.Credential</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainComputer_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainComputer(System.String%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Collections.Generic.IEnumerable%7BSharpSploit.Enumeration.Domain.UACEnum%7D%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L343">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainComputer_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainComputer*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainComputer_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainComputer(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{SharpSploit.Enumeration.Domain.UACEnum},System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String,System.Boolean)">GetDomainComputer(String, String, IEnumerable&lt;String&gt;, IEnumerable&lt;Domain.UACEnum&gt;, Boolean, Boolean, Boolean, String, String, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a specified computer <code>DomainObject</code> in the current Domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Domain.DomainObject GetDomainComputer(string Identity, string LDAPFilter = &quot;&quot;, IEnumerable&lt;string&gt; Properties = null, IEnumerable&lt;Domain.UACEnum&gt; UACFilter = null, bool Unconstrained = false, bool TrustedToAuth = false, bool Printers = false, string SPN = &quot;&quot;, string OperatingSystem = &quot;&quot;, string ServicePack = &quot;&quot;, string SiteName = &quot;&quot;, bool Ping = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Identity</span></td>
+        <td><p>ComputerName to search for</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">LDAPFilter</span></td>
+        <td><p>Optional LDAP filter to apply to the search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Properties</span></td>
+        <td><p>Optional list of properties to retrieve from the DomainObject.
+If not specified, all properties are included.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.UACEnum.html">Domain.UACEnum</a>&gt;</td>
+        <td><span class="parametername">UACFilter</span></td>
+        <td><p>Optional filter to parse the userAccountControl DomainObject property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">Unconstrained</span></td>
+        <td><p>Optionally filter for only a DomainObject that has unconstrained delegation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">TrustedToAuth</span></td>
+        <td><p>Optionally filter for only a DomainObject that is trusted to authenticate for other DomainObjects</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">Printers</span></td>
+        <td><p>Optionally return only a DomainObject that is a printer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">SPN</span></td>
+        <td><p>Optionally filter for only a DomainObject with an SPN set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">OperatingSystem</span></td>
+        <td><p>Optionally filter for only a DomainObject with a specific Operating System, wildcards accepted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ServicePack</span></td>
+        <td><p>Optionally filter for only a DomainObject with a specific service pack, wildcards accepted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">SiteName</span></td>
+        <td><p>Optionally filter for only a DomainObject in a specific Domain SiteName, wildcards accepted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">Ping</span></td>
+        <td><p>Optional switch, ping the computer to ensure it's up before enumerating.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpSploit.Enumeration.Domain.DomainObject.html">Domain.DomainObject</a></td>
+        <td><p>Matching computer DomainObject</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainComputers_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainComputers(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Collections.Generic.IEnumerable%7BSharpSploit.Enumeration.Domain.UACEnum%7D%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L366">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainComputers_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainComputers*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainComputers_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_System_Boolean_System_Boolean_System_String_System_String_System_String_System_String_System_Boolean_System_Boolean_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainComputers(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{SharpSploit.Enumeration.Domain.UACEnum},System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)">GetDomainComputers(IEnumerable&lt;String&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;Domain.UACEnum&gt;, Boolean, Boolean, Boolean, String, String, String, String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of specified (or all) computer <code>DomainObject</code>s in the current Domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Domain.DomainObject&gt; GetDomainComputers(IEnumerable&lt;string&gt; Identities = null, string LDAPFilter = &quot;&quot;, IEnumerable&lt;string&gt; Properties = null, IEnumerable&lt;Domain.UACEnum&gt; UACFilter = null, bool Unconstrained = false, bool TrustedToAuth = false, bool Printers = false, string SPN = &quot;&quot;, string OperatingSystem = &quot;&quot;, string ServicePack = &quot;&quot;, string SiteName = &quot;&quot;, bool Ping = false, bool FindOne = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Identities</span></td>
+        <td><p>Optional list of ComputerNames to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">LDAPFilter</span></td>
+        <td><p>Optional LDAP filter to apply to the search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Properties</span></td>
+        <td><p>Optional list of properties to retrieve from the DomainObject.
+If not specified, all properties are included.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.UACEnum.html">Domain.UACEnum</a>&gt;</td>
+        <td><span class="parametername">UACFilter</span></td>
+        <td><p>Optional filter to parse the userAccountControl DomainObject property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">Unconstrained</span></td>
+        <td><p>Optionally filter for only a DomainObject that has unconstrained delegation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">TrustedToAuth</span></td>
+        <td><p>Optionally filter for only a DomainObject that is trusted to authenticate for other DomainObjects</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">Printers</span></td>
+        <td><p>Optionally return only a DomainObject that is a printer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">SPN</span></td>
+        <td><p>Optionally filter for only a DomainObject with an SPN set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">OperatingSystem</span></td>
+        <td><p>Optionally filter for only a DomainObject with a specific Operating System, wildcards accepted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ServicePack</span></td>
+        <td><p>Optionally filter for only a DomainObject with a specific service pack, wildcards accepted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">SiteName</span></td>
+        <td><p>Optionally filter for only a DomainObject in a specific Domain SiteName, wildcards accepted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">Ping</span></td>
+        <td><p>Optional switch, ping the computer to ensure it's up before enumerating.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">FindOne</span></td>
+        <td><p>Optionally find only the first matching DomainObject.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.DomainObject.html">Domain.DomainObject</a>&gt;</td>
+        <td><p>List of matching computer DomainObjects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainGroup_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_String_System_String_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainGroup(System.String%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Boolean%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L223">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainGroup_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainGroup*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainGroup_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_String_System_String_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainGroup(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.String,System.String)">GetDomainGroup(String, String, IEnumerable&lt;String&gt;, Boolean, String, String)</h4>
+  <div class="markdown level1 summary"><p>Gets a specified group <code>DomainObject</code> in the current Domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Domain.DomainObject GetDomainGroup(string Identity, string LDAPFilter = &quot;&quot;, IEnumerable&lt;string&gt; Properties = null, bool AdminCount = false, string GroupScope = &quot;&quot;, string GroupProperty = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Identity</span></td>
+        <td><p>Group name to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">LDAPFilter</span></td>
+        <td><p>Optional LDAP filter to apply to the search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Properties</span></td>
+        <td><p>Optional list of properties to retrieve from the DomainObject.
+If not specified, all properties are included.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">AdminCount</span></td>
+        <td><p>Optionally filter for only a DomainObject with the AdminCount property set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">GroupScope</span></td>
+        <td><p>Optionally filter for a GroupScope (DomainLocal, Global, Universal, etc).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">GroupProperty</span></td>
+        <td><p>Optionally filter for a GroupProperty (Security, Distribution, CreatedBySystem,
+NotCreatedBySystem,etc)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpSploit.Enumeration.Domain.DomainObject.html">Domain.DomainObject</a></td>
+        <td><p>Matching group DomainObject</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainGroups_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainGroups(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Boolean%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L241">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainGroups_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainGroups*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainGroups_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_String_System_String_System_Boolean_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainGroups(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean,System.String,System.String,System.Boolean)">GetDomainGroups(IEnumerable&lt;String&gt;, String, IEnumerable&lt;String&gt;, Boolean, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of specified (or all) group <code>DomainObject</code>s in the current Domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Domain.DomainObject&gt; GetDomainGroups(IEnumerable&lt;string&gt; Identities = null, string LDAPFilter = &quot;&quot;, IEnumerable&lt;string&gt; Properties = null, bool AdminCount = false, string GroupScope = &quot;&quot;, string GroupProperty = &quot;&quot;, bool FindOne = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Identities</span></td>
+        <td><p>Optional list of group names to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">LDAPFilter</span></td>
+        <td><p>Optional LDAP filter to apply to the search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Properties</span></td>
+        <td><p>Optional list of properties to retrieve from the DomainObject.
+If not specified, all properties are included.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">AdminCount</span></td>
+        <td><p>Optionally filter for only a DomainObject with the AdminCount property set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">GroupScope</span></td>
+        <td><p>Optionally filter for a GroupScope (DomainLocal, Global, Universal, etc).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">GroupProperty</span></td>
+        <td><p>Optionally filter for a GroupProperty (Security, Distribution, CreatedBySystem,
+NotCreatedBySystem,etc).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">FindOne</span></td>
+        <td><p>Optionally find only the first matching DomainObject.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.DomainObject.html">Domain.DomainObject</a>&gt;</td>
+        <td><p>List of matching group DomainObjects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainSPNTicket_SharpSploit_Enumeration_Domain_DomainObject_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainSPNTicket(SharpSploit.Enumeration.Domain.DomainObject)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L458">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainSPNTicket_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainSPNTicket*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainSPNTicket_SharpSploit_Enumeration_Domain_DomainObject_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainSPNTicket(SharpSploit.Enumeration.Domain.DomainObject)">GetDomainSPNTicket(Domain.DomainObject)</h4>
+  <div class="markdown level1 summary"><p>Get <code>SPNTicket</code> for specified <code>DomainObject</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Domain.SPNTicket GetDomainSPNTicket(Domain.DomainObject DomainObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpSploit.Enumeration.Domain.DomainObject.html">Domain.DomainObject</a></td>
+        <td><span class="parametername">DomainObject</span></td>
+        <td><p>DomainObject with an SPN set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpSploit.Enumeration.Domain.SPNTicket.html">Domain.SPNTicket</a></td>
+        <td><p>SPNTicker for the specified DomainObject</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainSPNTickets_System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_DomainObject__.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainSPNTickets(System.Collections.Generic.IEnumerable%7BSharpSploit.Enumeration.Domain.DomainObject%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L443">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainSPNTickets_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainSPNTickets*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainSPNTickets_System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_DomainObject__" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainSPNTickets(System.Collections.Generic.IEnumerable{SharpSploit.Enumeration.Domain.DomainObject})">GetDomainSPNTickets(IEnumerable&lt;Domain.DomainObject&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets <code>SPNTicket</code>s for specified <code>DomainObject</code>s.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Domain.SPNTicket&gt; GetDomainSPNTickets(IEnumerable&lt;Domain.DomainObject&gt; DomainObjects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.DomainObject.html">Domain.DomainObject</a>&gt;</td>
+        <td><span class="parametername">DomainObjects</span></td>
+        <td><p>List of DomainObjects with an SPN set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.SPNTicket.html">Domain.SPNTicket</a>&gt;</td>
+        <td><p>List of SPNTickets for the specified DomainObjects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainUser_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainUser(System.String%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Collections.Generic.IEnumerable%7BSharpSploit.Enumeration.Domain.UACEnum%7D%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L119">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainUser_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainUser*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainUser_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainUser(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{SharpSploit.Enumeration.Domain.UACEnum},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">GetDomainUser(String, String, IEnumerable&lt;String&gt;, IEnumerable&lt;Domain.UACEnum&gt;, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a specified user <code>DomainObject</code> in the current Domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Domain.DomainObject GetDomainUser(string Identity, string LDAPFilter = &quot;&quot;, IEnumerable&lt;string&gt; Properties = null, IEnumerable&lt;Domain.UACEnum&gt; UACFilter = null, bool SPN = false, bool AllowDelegation = false, bool DisallowDelegation = false, bool AdminCount = false, bool TrustedToAuth = false, bool PreauthNotRequired = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Identity</span></td>
+        <td><p>Username to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">LDAPFilter</span></td>
+        <td><p>Optional LDAP filter to apply to the search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Properties</span></td>
+        <td><p>Optional list of properties to retrieve from the DomainObject.
+If not specified, all properties are included.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.UACEnum.html">Domain.UACEnum</a>&gt;</td>
+        <td><span class="parametername">UACFilter</span></td>
+        <td><p>Optional filter to parse the userAccountControl DomainObject property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">SPN</span></td>
+        <td><p>Optionally filter for only a DomainObject with an SPN set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">AllowDelegation</span></td>
+        <td><p>Optionally filter for only a DomainObject that allows for delegation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">DisallowDelegation</span></td>
+        <td><p>Optionally filter for only a DomainObject that does not allow for delegation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">AdminCount</span></td>
+        <td><p>Optionally filter for only a DomainObject with the AdminCount property set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">TrustedToAuth</span></td>
+        <td><p>Optionally filter for only a DomainObject that is trusted to authenticate for other DomainObjects</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">PreauthNotRequired</span></td>
+        <td><p>Optionally filter for only a DomainObject does not require Kerberos preauthentication.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpSploit.Enumeration.Domain.DomainObject.html">Domain.DomainObject</a></td>
+        <td><p>Matching user DomainObject</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainUsers_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainUsers(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.Collections.Generic.IEnumerable%7BSharpSploit.Enumeration.Domain.UACEnum%7D%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L140">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainUsers_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainUsers*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_GetDomainUsers_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.GetDomainUsers(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{SharpSploit.Enumeration.Domain.UACEnum},System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">GetDomainUsers(IEnumerable&lt;String&gt;, String, IEnumerable&lt;String&gt;, IEnumerable&lt;Domain.UACEnum&gt;, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of specified (or all) user <code>DomainObject</code>s in the current Domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Domain.DomainObject&gt; GetDomainUsers(IEnumerable&lt;string&gt; Identities = null, string LDAPFilter = &quot;&quot;, IEnumerable&lt;string&gt; Properties = null, IEnumerable&lt;Domain.UACEnum&gt; UACFilter = null, bool SPN = false, bool AllowDelegation = false, bool DisallowDelegation = false, bool AdminCount = false, bool TrustedToAuth = false, bool PreauthNotRequired = false, bool FindOne = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Identities</span></td>
+        <td><p>Optional list of usernames to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">LDAPFilter</span></td>
+        <td><p>Optional LDAP filter to apply to the search.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Properties</span></td>
+        <td><p>Optional list of properties to retrieve from the DomainObject.
+If not specified, all properties are included.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.UACEnum.html">Domain.UACEnum</a>&gt;</td>
+        <td><span class="parametername">UACFilter</span></td>
+        <td><p>Optional filter to parse the userAccountControl DomainObject property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">SPN</span></td>
+        <td><p>Optionally filter for only a DomainObject with an SPN set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">AllowDelegation</span></td>
+        <td><p>Optionally filter for only a DomainObject that allows for delegation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">DisallowDelegation</span></td>
+        <td><p>Optionally filter for only a DomainObject that does not allow for delegation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">AdminCount</span></td>
+        <td><p>Optionally filter for only a DomainObject with the AdminCount property set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">TrustedToAuth</span></td>
+        <td><p>Optionally filter for only a DomainObject that is trusted to authenticate for other DomainObjects</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">PreauthNotRequired</span></td>
+        <td><p>Optionally filter for only a DomainObject does not require Kerberos preauthentication.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">FindOne</span></td>
+        <td><p>Optionally find only the first matching DomainObject.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.DomainObject.html">Domain.DomainObject</a>&gt;</td>
+        <td><p>List of matching user DomainObjects</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_Kerberoast_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.Kerberoast(System.Collections.Generic.IEnumerable%7BSystem.String%7D%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSharpSploit.Enumeration.Domain.UACEnum%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L477">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_Kerberoast_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.Kerberoast*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_Kerberoast_System_Collections_Generic_IEnumerable_System_String__System_String_System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__System_Boolean_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.Kerberoast(System.Collections.Generic.IEnumerable{System.String},System.String,System.Collections.Generic.IEnumerable{SharpSploit.Enumeration.Domain.UACEnum},System.Boolean)">Kerberoast(IEnumerable&lt;String&gt;, String, IEnumerable&lt;Domain.UACEnum&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of <code>SPNTicket</code>s for specified (or all) users with a SPN set in the current Domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Domain.SPNTicket&gt; Kerberoast(IEnumerable&lt;string&gt; Identities = null, string LDAPFilter = &quot;&quot;, IEnumerable&lt;Domain.UACEnum&gt; UACFilter = null, bool FindOne = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">Identities</span></td>
+        <td><p>Username to Kerberoast of a user with an SPN set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">LDAPFilter</span></td>
+        <td><p>Optional LDAP filter when searching for users with an SPN set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.UACEnum.html">Domain.UACEnum</a>&gt;</td>
+        <td><span class="parametername">UACFilter</span></td>
+        <td><p>Optional filter to parse the userAccountControl DomainObject property.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">FindOne</span></td>
+        <td><p>If true, will only find a single SPNTicket for the first user found with an SPN set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.SPNTicket.html">Domain.SPNTicket</a>&gt;</td>
+        <td><p>List of SPNTickets</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher_Kerberoast_System_String_System_String_System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher.Kerberoast(System.String%2CSystem.String%2CSystem.Collections.Generic.IEnumerable%7BSharpSploit.Enumeration.Domain.UACEnum%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L489">View Source</a>
+  </span>
+  <a id="SharpSploit_Enumeration_Domain_DomainSearcher_Kerberoast_" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.Kerberoast*"></a>
+  <h4 id="SharpSploit_Enumeration_Domain_DomainSearcher_Kerberoast_System_String_System_String_System_Collections_Generic_IEnumerable_SharpSploit_Enumeration_Domain_UACEnum__" data-uid="SharpSploit.Enumeration.Domain.DomainSearcher.Kerberoast(System.String,System.String,System.Collections.Generic.IEnumerable{SharpSploit.Enumeration.Domain.UACEnum})">Kerberoast(String, String, IEnumerable&lt;Domain.UACEnum&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of <code>SPNTicket</code>s for specified (or all) users with a SPN set in the current Domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Domain.SPNTicket Kerberoast(string Identity, string LDAPFilter = &quot;&quot;, IEnumerable&lt;Domain.UACEnum&gt; UACFilter = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Identity</span></td>
+        <td><p>Optional list of users to Kerberoast. If null, all users with an SPN set will be used.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">LDAPFilter</span></td>
+        <td><p>Optional LDAP filter when searching for users with an SPN set.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="SharpSploit.Enumeration.Domain.UACEnum.html">Domain.UACEnum</a>&gt;</td>
+        <td><span class="parametername">UACFilter</span></td>
+        <td><p>Optional filter to parse the userAccountControl DomainObject property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SharpSploit.Enumeration.Domain.SPNTicket.html">Domain.SPNTicket</a></td>
+        <td><p>List of SPNTickets</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/cobbr/SharpSploit/new/master/apiSpec/new?filename=SharpSploit_Enumeration_Domain_DomainSearcher.md&amp;value=---%0Auid%3A%20SharpSploit.Enumeration.Domain.DomainSearcher%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Enumeration/Domain.cs/#L37" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

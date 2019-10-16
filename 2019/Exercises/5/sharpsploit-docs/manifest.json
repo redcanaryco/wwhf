@@ -1,0 +1,2047 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/dev/code/SharpSploit/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Credentials.Mimikatz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Credentials.Mimikatz.html",
+          "hash": "efvj6ZbvhqEjVv9GW0Yydg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Credentials.Tokens.UserProcessToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Credentials.Tokens.UserProcessToken.html",
+          "hash": "8L5H0FDY4BLvzQu1+YAnog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Credentials.Tokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Credentials.Tokens.html",
+          "hash": "yi24oEGl2HwHrbnBhCPUCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Credentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Credentials.html",
+          "hash": "V5Lnx8g0uFCynhk70Ns+Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.Credential.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.Credential.html",
+          "hash": "OAjFK2CNwtyRq0vyRSM8LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.DomainObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.DomainObject.html",
+          "hash": "UJLmfs1X7574zI4IUCZl1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.DomainObjectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.DomainObjectType.html",
+          "hash": "BwZgqWAtix3VmxbmMENSBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.DomainSearcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.DomainSearcher.html",
+          "hash": "MW1Jt6Bl60qpmlIODywerg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.GroupTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.GroupTypeEnum.html",
+          "hash": "Lw5i8n3vXpeSclccMorQgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.NameType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.NameType.html",
+          "hash": "VgeOVJpLz1bh2eRXIi7zRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.SPNTicket.HashFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.SPNTicket.HashFormat.html",
+          "hash": "hn11s999H0i45n5wK33LvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.SPNTicket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.SPNTicket.html",
+          "hash": "uHtVEM4g22TGkzJgXecncg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.SamAccountTypeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.SamAccountTypeEnum.html",
+          "hash": "KZoh6OQZxeZinZsRgkRs+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.UACEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.UACEnum.html",
+          "hash": "kr1hALTLfuu1dwLTHQfKHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Domain.html",
+          "hash": "119UxbP9JbNJ4ggM1FMjRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.GPO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.GPO.html",
+          "hash": "cR1rvyaYyMFoTeQYYmmivg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Host.FileSystemEntryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Host.FileSystemEntryResult.html",
+          "hash": "MAfFp3jwID9Ly6NwRKkldQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Host.ProcessResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Host.ProcessResult.html",
+          "hash": "TgX3SjcQSOoR6YuwQvlhiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Host.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Host.html",
+          "hash": "O/HmqReRoVnHoxxN3OB7rQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Keylogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Keylogger.html",
+          "hash": "P6XH+jTPJsizb65xhI50iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Net.LocalGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Net.LocalGroup.html",
+          "hash": "13vn84QSKHI9K3mUR14JbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Net.LocalGroupMember.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Net.LocalGroupMember.html",
+          "hash": "TAvh7V87RCioX5QreMryTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Net.LoggedOnUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Net.LoggedOnUser.html",
+          "hash": "dS8tBeSname1GyIqJfOyjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Net.SessionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Net.SessionInfo.html",
+          "hash": "Kc+9PjPpUIvlu0cSsxX68A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Net.html",
+          "hash": "36F6ANZ0Aq/yKJYotnwXxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Network.PingResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Network.PingResult.html",
+          "hash": "W30LSP+r+t91ddiK07vxjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Network.PortScanResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Network.PortScanResult.html",
+          "hash": "+G11EY3PX6gFTpR9CuF0Zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Network.html",
+          "hash": "Y5S3OVoH7tPiDER7aICmGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.Registry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.Registry.html",
+          "hash": "LBSHsWW/Lws5e3k8MlbM4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Enumeration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Enumeration.html",
+          "hash": "8s3yF2YdqH8u1284d3EkJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Evasion.Amsi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Evasion.Amsi.html",
+          "hash": "fzDo3bjSim+E6+aGqEsTwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Evasion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Evasion.html",
+          "hash": "reW4A3hXpIgT8ZZx32FIxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Assembly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Assembly.html",
+          "hash": "E1UUuulrgtkS7MXerf8x5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.Generic.html",
+          "hash": "Rk2KfRs/nfhjPuJPbRXSOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.NtCreateSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.NtCreateSection.html",
+          "hash": "lv/uYDK3mYPZ/5WNAUcy3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.NtCreateThreadEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.NtCreateThreadEx.html",
+          "hash": "96BUpHrMr+0xchVdxaRcXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.NtMapViewOfSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.NtMapViewOfSection.html",
+          "hash": "/KAMj6HMQtgddLqLW7pxFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.NtUnmapViewOfSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.NtUnmapViewOfSection.html",
+          "hash": "kGeFBOjJGBvWCIg80A4qFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.DELEGATES.html",
+          "hash": "AuEEy1O0wNZlzjaMs7Kpfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.Native.html",
+          "hash": "nFbo8EwukadtyZLt7h0o2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.Win32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.Win32.html",
+          "hash": "/ufqgcIoGP1Km2HPBZoAaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.DynamicInvoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.DynamicInvoke.html",
+          "hash": "sD+fj6l4x3JQlQKmT0eMmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.DataSectionFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.DataSectionFlags.html",
+          "hash": "tkItX/o1AGBmF63AxokXUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.IMAGE_BASE_RELOCATION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.IMAGE_BASE_RELOCATION.html",
+          "hash": "8LORByhjhr6/QYGJkCo0YA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.IMAGE_DATA_DIRECTORY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.IMAGE_DATA_DIRECTORY.html",
+          "hash": "H9qfYtCm5j7a8oeYmyQISg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.IMAGE_DOS_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.IMAGE_DOS_HEADER.html",
+          "hash": "2pR+ZyNlzJy2qt+wz1WDbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.IMAGE_EXPORT_DIRECTORY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.IMAGE_EXPORT_DIRECTORY.html",
+          "hash": "8FcaXvamRahnrIn6zAcxGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.IMAGE_FILE_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.IMAGE_FILE_HEADER.html",
+          "hash": "rmIAy3uxQYF4NPy7jverOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.IMAGE_OPTIONAL_HEADER32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.IMAGE_OPTIONAL_HEADER32.html",
+          "hash": "7AtnB3yErOlH/fazKF2IrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.IMAGE_OPTIONAL_HEADER64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.IMAGE_OPTIONAL_HEADER64.html",
+          "hash": "w8TTqPY3SZs0IXJI8vZ+Ag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.IMAGE_SECTION_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.IMAGE_SECTION_HEADER.html",
+          "hash": "SbPbEuhnRYK5EvS6Z8JC+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.PE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.PE.html",
+          "hash": "AtcBwGgndbxx4ZlLZH881w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Shell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Shell.html",
+          "hash": "itxmMvSDOkZcjeG0rLG+3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.ShellCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.ShellCode.html",
+          "hash": "6Pg02NNq34Tdy+t0W8uNuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.ActiveDs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.ActiveDs.html",
+          "hash": "AyJoQ/0kOAguBtAz8lSBiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Advapi32.CREATION_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Advapi32.CREATION_FLAGS.html",
+          "hash": "hmH52pkT6PceIc7QhvlqqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Advapi32.LOGON_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Advapi32.LOGON_FLAGS.html",
+          "hash": "urvqnqwaf13HDmnI+QAixA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Advapi32.LOGON_PROVIDER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Advapi32.LOGON_PROVIDER.html",
+          "hash": "NVF0JQq3wwF6xjsoIwFZKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Advapi32.LOGON_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Advapi32.LOGON_TYPE.html",
+          "hash": "q+49N88zfO/G0FEXfS99oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Advapi32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Advapi32.html",
+          "hash": "3yTHHA/QJTd27dtRCeioyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Dbghelp.MINIDUMP_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Dbghelp.MINIDUMP_TYPE.html",
+          "hash": "ivxWOdThE1Bp6d/rgB9lyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Dbghelp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Dbghelp.html",
+          "hash": "/OGqOboTGh3mm9R/Zad7Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Kernel32.IMAGE_BASE_RELOCATION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Kernel32.IMAGE_BASE_RELOCATION.html",
+          "hash": "WZX3DA6gD5EIWrV1SxhBnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Kernel32.IMAGE_IMPORT_DESCRIPTOR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Kernel32.IMAGE_IMPORT_DESCRIPTOR.html",
+          "hash": "+xqXeuukQZ2QFtBzRNlLfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Kernel32.Platform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Kernel32.Platform.html",
+          "hash": "2o94Ye3RqVhnEZ9FvM5HPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Kernel32.ProcessAccessFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Kernel32.ProcessAccessFlags.html",
+          "hash": "FYsHntwAzY3dtV72DMX4nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Kernel32.SYSTEM_INFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Kernel32.SYSTEM_INFO.html",
+          "hash": "PI+Qg/YdcXvjKoj8/MsiYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Kernel32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Kernel32.html",
+          "hash": "cER8umGBMv4UacbFSlW4pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Netapi32.LOCALGROUP_MEMBERS_INFO_2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Netapi32.LOCALGROUP_MEMBERS_INFO_2.html",
+          "hash": "W9maPeN6JJfCq3B8rrxwJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Netapi32.LOCALGROUP_USERS_INFO_0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Netapi32.LOCALGROUP_USERS_INFO_0.html",
+          "hash": "4ujvUfOjzsXJPX4svtCoEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Netapi32.LOCALGROUP_USERS_INFO_1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Netapi32.LOCALGROUP_USERS_INFO_1.html",
+          "hash": "lCOs+NMPhXg4qFedHPLBbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Netapi32.SESSION_INFO_10.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Netapi32.SESSION_INFO_10.html",
+          "hash": "+0vMAkXFuUqH2+6kt9qMgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Netapi32.SID_NAME_USE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Netapi32.SID_NAME_USE.html",
+          "hash": "H8o+Hn2u/X2euyFfE0Vr+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Netapi32.WKSTA_USER_INFO_1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Netapi32.WKSTA_USER_INFO_1.html",
+          "hash": "TQn63GLady1TIpGHWOJLMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Netapi32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Netapi32.html",
+          "hash": "+ad8vqXsuwuJ3twGWfmL2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.NtDll.NTSTATUS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.NtDll.NTSTATUS.html",
+          "hash": "llSgk82ZoDT8QdZ67zODHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.NtDll.NT_CREATION_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.NtDll.NT_CREATION_FLAGS.html",
+          "hash": "Y3T44eRi9GlzsMWdLdk4Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.NtDll.PROCESSINFOCLASS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.NtDll.PROCESSINFOCLASS.html",
+          "hash": "NmNwZ73WpT9a88Q/DShbzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.NtDll.PROCESS_BASIC_INFORMATION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.NtDll.PROCESS_BASIC_INFORMATION.html",
+          "hash": "vNN1YVLOO18ve7daGbPyAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.NtDll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.NtDll.html",
+          "hash": "REbSfVUsqrBieK93znrcjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.ProcessThreadsAPI._PROCESS_INFORMATION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.ProcessThreadsAPI._PROCESS_INFORMATION.html",
+          "hash": "7SqiHCYfUQ2z7ie5JfNCIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.ProcessThreadsAPI._STARTUPINFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.ProcessThreadsAPI._STARTUPINFO.html",
+          "hash": "FtgBqs1Bn1ZQZv/BqR8E4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.ProcessThreadsAPI._STARTUPINFOEX.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.ProcessThreadsAPI._STARTUPINFOEX.html",
+          "hash": "pGEhdv+XAx+QbEbK3KJZdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.ProcessThreadsAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.ProcessThreadsAPI.html",
+          "hash": "KbcvAOPRSPrskk+m91VE9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Secur32._LSA_UNICODE_STRING.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Secur32._LSA_UNICODE_STRING.html",
+          "hash": "559BjFBAgp4rHsuBz5gYoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Secur32._SECURITY_LOGON_SESSION_DATA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Secur32._SECURITY_LOGON_SESSION_DATA.html",
+          "hash": "KTaJxpwPUyu/HymzphcvSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.Secur32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.Secur32.html",
+          "hash": "ush54IXnMzTh7nRHVe+9Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.User32.HookProc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.User32.HookProc.html",
+          "hash": "aPQ3dRJwOZ968+7fr/llsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.User32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.User32.html",
+          "hash": "zyV5Aejl3nFSwrZ7pVdKhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinBase._SECURITY_ATTRIBUTES.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinBase._SECURITY_ATTRIBUTES.html",
+          "hash": "TqcIt+h/QGsx9SyzpwXOZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinBase._SYSTEM_INFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinBase._SYSTEM_INFO.html",
+          "hash": "Pc6RAFjodiKp72YbNfZEag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinBase.html",
+          "hash": "lFde9gJlG5SoWee1+j/33A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinCred.CRED_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinCred.CRED_FLAGS.html",
+          "hash": "zMRhvByHe9zkCmW3/RjL/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinCred.CRED_PERSIST.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinCred.CRED_PERSIST.html",
+          "hash": "iIsTomcVHUocaAkajzthJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinCred.CRED_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinCred.CRED_TYPE.html",
+          "hash": "IzItV6t09ifQMBtO7lm6ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinCred._CREDENTIAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinCred._CREDENTIAL.html",
+          "hash": "dMhGZmviqJAjRZxs+tnC1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinCred.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinCred.html",
+          "hash": "1QVp+Qjj7NPB0xyqjc8YBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT.ACCESS_MASK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT.ACCESS_MASK.html",
+          "hash": "K2rQQxitP92FmzKvRTh03g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT.TOKEN_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT.TOKEN_TYPE.html",
+          "hash": "iu/GGNm4SZGfNr1GdoxWtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._LUID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._LUID.html",
+          "hash": "SOlpQ7B1U4o6Ya8UECYLQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._LUID_AND_ATTRIBUTES.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._LUID_AND_ATTRIBUTES.html",
+          "hash": "v94rsjFq02DUMvBHKaDiwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._MEMORY_BASIC_INFORMATION32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._MEMORY_BASIC_INFORMATION32.html",
+          "hash": "9nyKZ2okF1cxc8Xj1xEEcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._MEMORY_BASIC_INFORMATION64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._MEMORY_BASIC_INFORMATION64.html",
+          "hash": "Jr1piAlULahugUtLpJnUxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._PRIVILEGE_SET.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._PRIVILEGE_SET.html",
+          "hash": "JdPId3MGnovj/jd6LVzMmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._SECURITY_IMPERSONATION_LEVEL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._SECURITY_IMPERSONATION_LEVEL.html",
+          "hash": "vpJsnNK9/EBF0omUal6THA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._SID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._SID.html",
+          "hash": "CZO5fpIl+CwdMHeM/t0Klg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._SID_AND_ATTRIBUTES.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._SID_AND_ATTRIBUTES.html",
+          "hash": "1PwBNOcF34Lv4eCxFxkJ4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._SID_IDENTIFIER_AUTHORITY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._SID_IDENTIFIER_AUTHORITY.html",
+          "hash": "e1XnEKGP6cVF8eqFDN9F1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._SID_NAME_USE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._SID_NAME_USE.html",
+          "hash": "NufMWW8Nm5ZtkVUZEDV6TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_ELEVATION_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_ELEVATION_TYPE.html",
+          "hash": "3tec1RMlskgF/tkP68bBig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_INFORMATION_CLASS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_INFORMATION_CLASS.html",
+          "hash": "apkkYLvMvds8M18nXUd+CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_MANDATORY_LABEL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_MANDATORY_LABEL.html",
+          "hash": "fkoPtmizl6tWTjXd0boa6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_PRIVILEGES.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_PRIVILEGES.html",
+          "hash": "apTxh71Ys202QzCALU6sGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_STATISTICS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_STATISTICS.html",
+          "hash": "T/TPr5koIAQUFQB5dF2XmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_USER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT._TOKEN_USER.html",
+          "hash": "y31wuYG96VU5HrH/IVZOmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.WinNT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.WinNT.html",
+          "hash": "kWbI+fesWyK9DiMXXfQk5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.Win32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.Win32.html",
+          "hash": "lW1wKEgl3wnu1mOztUmbJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Execution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Execution.html",
+          "hash": "A80174Lh0RiBHGIUxQfHZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Framework.Tests.Execution.ShellCodeTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Framework.Tests.Execution.ShellCodeTests.html",
+          "hash": "wZjytEI/+fVZLuVPIn9Wuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Framework.Tests.Execution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Framework.Tests.Execution.html",
+          "hash": "lWOkr50M2FIRKcPx1o4x5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Generic.GenericObjectResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Generic.GenericObjectResult.html",
+          "hash": "KaFGePPvTRGeawstqSZfJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Generic.SharpSploitResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Generic.SharpSploitResult.html",
+          "hash": "dKMb+dBAOjULfCQjc/gvWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Generic.SharpSploitResultList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Generic.SharpSploitResultList-1.html",
+          "hash": "DeY5ov8mMmpk3J4kuofjWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Generic.SharpSploitResultProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Generic.SharpSploitResultProperty.html",
+          "hash": "pQo3OnB/twPQK5NUXOLQZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Generic.html",
+          "hash": "88K+GpGUEkl8AQprTaAikw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.LateralMovement.DCOM.DCOMMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.LateralMovement.DCOM.DCOMMethod.html",
+          "hash": "s4sY9Y0SSe3WN5Ytsxgqjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.LateralMovement.DCOM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.LateralMovement.DCOM.html",
+          "hash": "LIE6NgQ/XGnsjyA78HgP4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.LateralMovement.WMI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.LateralMovement.WMI.html",
+          "hash": "+t1+H7uYK4450R18L22KWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.LateralMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.LateralMovement.html",
+          "hash": "zsP333tgK67Fpmt4GOSpgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Misc.CountdownEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Misc.CountdownEvent.html",
+          "hash": "09/qRWyTb+64Mpk/aky6Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Misc.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Misc.Utilities.html",
+          "hash": "SvpYz4ygEdQDT0Pw2Oul/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Misc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Misc.html",
+          "hash": "q+YXerEQEZTbSm4ThlggCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Persistence.Autorun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Persistence.Autorun.html",
+          "hash": "CTdPVJrhNp3ijbcNJmASgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Persistence.COM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Persistence.COM.html",
+          "hash": "guoTekPR8TMm8h9RkLnEkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Persistence.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Persistence.Startup.html",
+          "hash": "aVJ0FgCEi+P6IAn5/pgXdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Persistence.WMI.EventConsumer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Persistence.WMI.EventConsumer.html",
+          "hash": "sRGk4bBxnS7sauoiX2ru3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Persistence.WMI.EventFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Persistence.WMI.EventFilter.html",
+          "hash": "tHwirhd7kvlaNl0Qssr7OA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Persistence.WMI.ScriptingEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Persistence.WMI.ScriptingEngine.html",
+          "hash": "rvWRf2lLAeA5i9+nvPVVbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Persistence.WMI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Persistence.WMI.html",
+          "hash": "p3zkBNY+0HqXQrcQETe6cA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Persistence.html",
+          "hash": "1WPt9QrIeIuVw2eKzpAamg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.PrivilegeEscalation.Exchange.ExchangeVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.PrivilegeEscalation.Exchange.ExchangeVersion.html",
+          "hash": "ow74CM2K/5aoH4qYXAdVqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.PrivilegeEscalation.Exchange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.PrivilegeEscalation.Exchange.html",
+          "hash": "UZHtfoT60WjjEgGdYRr4/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.PrivilegeEscalation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.PrivilegeEscalation.html",
+          "hash": "+qLubbuLKw6i4UkXpqQrOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Credentials.TokensTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Credentials.TokensTests.html",
+          "hash": "EbfP+KwIJ6FiO9XoMWgRCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Credentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Credentials.html",
+          "hash": "l/RUDniXs2MH4RalgDnNJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Enumeration.DomainTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Enumeration.DomainTests.html",
+          "hash": "EreBfbEUE5w4qLbcu95f9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Enumeration.HostTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Enumeration.HostTests.html",
+          "hash": "1K67wnd0vLtEaI9iIi4ISg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Enumeration.KeyloggerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Enumeration.KeyloggerTests.html",
+          "hash": "WYvh4xNl4MD+HAHUt4RG4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Enumeration.NetworkTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Enumeration.NetworkTests.html",
+          "hash": "sP/gBOeeFd5j3jzxZeY3WQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Enumeration.RegistryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Enumeration.RegistryTests.html",
+          "hash": "xAtC2TNq9gl6DKyJtowMtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Enumeration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Enumeration.html",
+          "hash": "zKq46hsUuOPhst0TSRqVtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Execution.ShellTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Execution.ShellTest.html",
+          "hash": "lenbajG1WiScMwvSqXWWsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Execution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Execution.html",
+          "hash": "gqNkbykJTF/yntbwgy2VOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.LateralMovement.DCOMTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.LateralMovement.DCOMTests.html",
+          "hash": "GZdl2rvC6KEpGwwNZAn5oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.LateralMovement.WMITests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.LateralMovement.WMITests.html",
+          "hash": "ChHf+vs+xImYzFnR5zrWOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.LateralMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.LateralMovement.html",
+          "hash": "zgf3YqRPmYKuvsEdVGkEjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Persistence.AutorunTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Persistence.AutorunTests.html",
+          "hash": "Bw0CmWBlwYBxtF7MKwsfUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Persistence.StartupTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Persistence.StartupTests.html",
+          "hash": "s3CJfZ5MUKjT4XLBsVIrsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Persistence.WMITests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Persistence.WMITests.html",
+          "hash": "677xCnD5Jl7V5teT/pqurQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpSploit.Tests.Persistence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpSploit.Tests.Persistence.html",
+          "hash": "9tZ9z7mUWHt29pXwGm3Qnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "tRg3G9hJ9giJHzWQ9nJKXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "AUietNhbUFr4qLzNlQzrXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "w2beKv6RJHRpjwOqDBya6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Ly9/GzA37BB20ydH5n2bGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ManagedReferenceDocumentProcessor disable incremental build because last build doesn't contain version .",
+          "incrementalPhase": "build",
+          "total_file_count": 160,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
