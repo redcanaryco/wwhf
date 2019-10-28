@@ -43,7 +43,14 @@ public class WildWestHackin
     //      test.MyMessage("Hi!");
     public void MyMessage(string inputString)
     {
-        MessageBox.Show(inputString);
+        this.MyString = inputString;
+        MessageBox.Show(this.MyString);
+        Console.WriteLine("_mystring: {0}", _mystring);
+    }
+
+    public void PrintIt()
+    {
+        MessageBox.Show(this.MyString);
     }
 
     // Internal variable. This is formally known as a "Field".

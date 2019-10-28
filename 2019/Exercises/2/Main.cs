@@ -30,5 +30,8 @@ public class Program
         // Call our instance method, MyMessage, on the
         // WildWestHackin class instance.
         wwhf.MyMessage("BoomTown!");
+
+        wwhf.MyString = "OtherBoomTown!";
+        wwhf.PrintIt();
     }
 }
